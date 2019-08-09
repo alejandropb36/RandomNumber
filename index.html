@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random numbers</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Random numbers</h1>
+    </header>
+
+    <section id="content">
+        <div id="form">
+            <h2>The number n must be between 0 and 1,000,000</h2>
+            <label for="number">Number (n):</label>
+            <input type="number" name="number" id="number">
+            <button id="start">start random number</button>
+        </div>
+
+        <div class="card">
+            <h3 id="result">#</h3>
+            <p class="card-text">Result</p>
+        </div>
+
+        <div class="alert">
+            <h4 id="alert"></h4>
+            <p id="alert-text"></p>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/coin-flip.js" type="text/javascript"></script>
+</body>
+</html>
